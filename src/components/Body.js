@@ -1,7 +1,7 @@
 import React from 'react'
 import comp from '../comp.png';
 import lecture from '../lecture.jpg';
-import coupon from '../coupon.jpg'
+import coupon from '../coupon.jpg';
 export const Body = () => {
     return (
         <>
@@ -62,7 +62,7 @@ export const Body = () => {
                 </p>
             </div>
             <div className="d-md-flex" id="coupons">
-                <img src={coupon} style={{ height:"40%",width:"35%",borderRadius:"20%"}} className=""/>
+                <img src={coupon} style={{ height:"40%",width:"35%",borderRadius:"20%"}} alt='image'/>
                 <div className=" offset-md-2 container my-sm-4">
                     <h3>Coupons</h3>
                     <p className="my-5">You can apply different coupons to get extra discount on selected courses.
@@ -75,7 +75,7 @@ export const Body = () => {
                     <p>
                     Already have a Coupon?
                     </p><hr></hr>
-                    <a href="#" style={{textDecoration:"none"}}><i class="fa fa-chevron-right"></i>Redeem</a>
+                    <a href="#coupons" style={{textDecoration:"none"}}><i class="fa fa-chevron-right"></i>Redeem</a>
                     
                 </div>
 
