@@ -62,7 +62,7 @@ export const Body = () => {
                 </p>
             </div>
             <div className="d-md-flex" id="coupons">
-                <img src={coupon} style={{ height:"40%",width:"35%",borderRadius:"20%"}} alt='image'/>
+                <img src={coupon} style={{ height:"40%",width:"35%",borderRadius:"20%"}} alt='coupon'/>
                 <div className=" offset-md-2 container my-sm-4">
                     <h3>Coupons</h3>
                     <p className="my-5">You can apply different coupons to get extra discount on selected courses.
